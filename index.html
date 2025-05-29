@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tijmen</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #0e0e0e;
+      --white: #ffffff;
+      --gold: #d4af37;
+      --gray: #aaa;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--black);
+      color: var(--white);
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .icon img {
+      width: 140px;
+      height: auto;
+      margin-bottom: 0;
+      image-rendering: crisp-edges;
+    }
+
+    header h1 {
+      font-family: 'EB Garamond', serif;
+      font-size: 3.5rem;
+      color: var(--gold);
+      letter-spacing: 1px;
+      margin-top: -20px;
+    }
+
+    .quote-block {
+      border-left: 4px solid var(--gold);
+      padding: 30px 20px;
+      margin: 60px 0;
+      background-color: rgba(255, 255, 255, 0.05);
+      white-space: pre-line;
+    }
+
+    .quote-block p {
+      font-style: normal;
+      font-size: 1.2rem;
+      color: #ddd;
+      margin-bottom: 10px;
+    }
+
+    .quote-block span {
+      display: block;
+      font-size: 0.95rem;
+      color: var(--gray);
+      margin-top: 10px;
+      text-align: right;
+    }
+
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 60px;
+    }
+
+    .collage img,
+    .collage video {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    video {
+      background: #000;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      .quote-block p {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="icon">
+        <img src="zeilbooticoon.png" alt="Zeilboot icoon">
+      </div>
+      <h1>Tijmen</h1>
+    </header>
+
+    <div class="quote-block">
+      <p>
+Jo maatje,
+
+Laat ik beginnen met je nog een keer feliciteren met je 18e verjaardag alweer. Het is niet normaal hoe snel het is gegaan. Ik weet nog precies als de dag van gister in welk lokaal ik je voor het eerste sprak zelfs, en hoe we toen een paar dagen later samen naar het Kralingse zwembad zijn gegaan.
+
+We zijn toen echt beste maatjes geworden en zijn zelfs samen op vakantie geweest, dit was een van mijn weinige vakanties met zulke leuke herinneringen en waar ik zo leuk op terug kijk. Hoe wij nachten lang samen op de kamer aan het lachen en aan het praten waren. Hoewel wij toen alleen maar bezig waren met je eerste liefde op het Rudolf en hier niet inzagen hoe onschuldig het eigenlijk allemaal was en hoe mooi we hier later op terug zouden kunnen kijken was dit echt super bijzonder. We hebben zo hard gelachen samen over Cvita en alles wat we daar meemaakten. We hebben natuurlijk niet alleen mooie herinneringen gemaakt op die vakantie maar ook daar buiten. Ik zat zelfs onder de pingpong tafel op kamp terwijl jij op dat moment bovenop die tafel voor het eerst had gezoend!!
+
+Buiten dat we zo gelachen hebben, hebben we ook veel gepraat en elkaar veel beter leren kennen en heb ik veel van je geleerd.
+
+Ik heb het altijd super bijzonder aan je gevonden hoe goed je met iedereen kan opschieten en hoe goed je voor iedereen bent. Hoewel ik je vast super vaak saai heb genoemd is dit wel heel leerzaam voor mij en andere aan je.
+
+We zijn zoals we allebei wel weten natuurlijk toch een beetje uit elkaar gegroeid, en dat is denk ik helemaal niet iets slechts. Het wilt namelijk niks zeggen over hoe goed ik het alsnog met je kan vinden en hoeveel je hebt betekend en nog steeds voor me betekend.
+
+Ik vind je echt een topper, je bent denk ik een inspiratiebron voor mij en vele andere.
+
+En oja, ik ben altijd in voor een Pilsje als ik in Rotterdam ben!! (Of jij in Utrecht)
+      </p>
+      <span>— Tijmen</span>
+    </div>
+
+    <div class="collage">
+      <img src="Tijmen-Jetenmax.jpeg" alt="Jetenmax">
+      <video src="Tijmen-loveyoumax.mp4" controls></video>
+      <img src="Tijmen-maxgefeliciteerd.jpeg" alt="Max Gefeliciteerd">
+      <video src="Tijmen-maxzingen.mp4" controls></video>
+      <img src="Tijmen-Selfiebed.jpeg" alt="Selfie in bed">
+      <img src="Tijmen-selfiebuiten.jpeg" alt="Selfie buiten">
+      <img src="Tijmen-Selfieflugel.jpeg" alt="Flügel selfie">
+      <img src="Tijmen-telefoonbellen.jpeg" alt="Telefoon bellen">
+    </div>
+  </div>
+</body>
+</html>
